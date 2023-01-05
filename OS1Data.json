@@ -1,0 +1,410 @@
+{
+    "1": {
+        "str": "1) Quale delle seguenti affermazioni sulle directory di un file system \u00e8 vera?\n\n> \u00c8 sempre necessario identificare un file di un file system fornendone il path assoluto\n> \u00c8 sempre necessario identificare un file di un file system fornendone il path relativo alla directory corrente\n\n> \u00c8 sempre possibile dare lo stesso nome a file diversi\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "4"
+    },
+    "2": {
+        "str": "2) Quale delle seguenti affermazioni sulla concorrenza tra processi o thread \u00e8 falsa?\n\n> La disabilitazione delle interruzioni impedisce la creazione di nuove interruzioni\n\n> L'abuso della disabilitazione delle interruzioni fa diminuire la multiprogrammazione, a parit\u00e0 di numero di processi\n\n> Se un processo pu\u00f2 disabilitare le interruzioni tramite un'istruzione macchina dedicata, allora pu\u00f2 far diminuire l'uso del processore\n\n> La disabilitazione delle interruzioni non funziona su sistemi con pi\u00f9 processori o pi\u00f9 core\n\n",
+        "ans": "1"
+    },
+    "3": {
+        "str": "3) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni \u00e8 vera?\n\n> Lo scheduler ha, tra i suoi obiettivi, quello di minimizzare il numero di processi che rispettano la propria deadline\n\n> Lo scheduler ha, tra i suoi obiettivi, quello di minimizzare il volume di lavoro nel tempo\n\n> Lo scheduler ha, tra i suoi obiettivi, quello di massimizzare il tempo di risposta\n\n> Lo scheduler ha, tra i suoi obiettivi, quello di minimizzare il tempo di inattivit\u00e0 del processore\n\n",
+        "ans": "4"
+    },
+    "4": {
+        "str": "4) Quale delle seguenti affermazioni sul modello dei processi in UNIX SVR4 System V Release 4 \u00e8 falsa?\n\n> Se un processo \u00e8 Zombie, allora \u00e8 terminato ma il suo process control block \u00e8 ancora in memoria\n\n> Asleep in Memory coincide con Blocked\n\n> Ha anche uno stato Zombie: serve per tutti i processi che sono terminati\n\n> Ha 9 stati (10 con Exit)\n\n",
+        "ans": "3"
+    },
+    "5": {
+        "str": "5) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 falsa?\n\n> Quando un indirizzo non viene trovato nel translation lookaside buffer, \u00e8 necessario consultare la normale tabella delle pagine\n\n> Il translation lookaside buffer \u00e8 una particolare cache, ma non \u00e8 completamente trasparente al sistema operativo\n\n> Il translation lookaside buffer permette di accedere direttamente al contenuto degli indirizzi di memoria virtuali usati pi\u00f9 di recente\n\n> In assenza di translation lookaside buffer, l'accesso ad un indirizzo virtuale pu\u00f2 richiedere almeno 2 accessi in memoria\n\n",
+        "ans": "2"
+    },
+    "6": {
+        "str": "6) Quale delle seguenti affermazioni sugli obiettivi di sicurezza di un sistema operativo \u00e8 vera?\n\n> Per \"disponibilit\u00e0\" dell'hardware si intende la garanzia che le workstation restino sempre fisse in un posto\n\n> Per \"confidenzialit\u00e0\" dei dati si intende la garanzia che essi non possano essere generati automaticamente\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Per \"integrit\u00e0\" dei dati si intende la garanzia che essi non vengano mai modificati\n\n",
+        "ans": "3"
+    },
+    "7": {
+        "str": "7) Quale delle seguenti affermazioni sul buffering dell'I/O \u00e8 vera? \n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Avviene direttamente su disco, altrimenti si rischia il deadlock per interferenze con il DMA\n\n> Nel caso ci siano pi\u00f9 buffer, vanno gestiti come nel problema dei lettori/scrittori\n\n> Pu\u00f2 consistere nel completare un'istruzione di output I (\u00e8 una i) dopo che alcune istruzioni successive ad I siano state eseguite\n\n",
+        "ans": "4"
+    },
+    "8": {
+        "str": "8) Quale delle seguenti affermazioni, riguardanti il joint progress diagram di 2 processi, \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Pu\u00f2 essere usato per visualizzare le possibilit\u00e0 di deadlock, ma solo se i processi richiedono al massimo 2 risorse\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi va in esecuzione a discapito dell'altro\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi sperimenta un page fault\n\n",
+        "ans": "1"
+    },
+    "9": {
+        "str": "9) Quale delle seguenti affermazioni sulla gerarchia della memoria \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Andando dall'alto in basso, cresce il costo\n\n> Andando dall'alto in basso, diminuisce la capacit\u00e0\n\n> Andando dall'alto in basso, diminuisce la frequenza di accesso alla memoria da parte del processore\n\n",
+        "ans": "4"
+    },
+    "10": {
+        "str": "10) Quale dei seguenti elementi non fa parte del process control block?\n\n> Il puntatore alla tabella delle pagine\n\n> L\u2019identificatore del thread\n\n> Lo stato o modalit\u00e0\n\n> L\u2019identificatore del processo\n\n",
+        "ans": "2"
+    },
+    "11": {
+        "str": "11) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Il quanto di tempo ottimale per lo scheduler round-robin \u00e8 maggiore del tipico tempo di completa esecuzione di un processo interattivo\n\n> Lo scheduler First Come First Served favorisce i processi I/O-bound\n\n> Anche assumendo che tutti i processi prima o poi terminino, lo scheduler First Come First Served soffre di starvation\n\n",
+        "ans": "1"
+    },
+    "12": {
+        "str": "12) Considerare un insieme di cinque processi P1, P2, P3, P4, P5 con i seguenti tempi di arrivo e tempi di esecuzione in millisecondi:\n\n| Processo | Tempo di Arrivo | Tempo di Esecuzione |\n\n|----------|-----------------|---------------------|\n\n| P1       | 0               | 14                  |\n\n| P2       | 8               | 16                  |\n\n| P3       | 5               | 3                   |\n\n| P4       | 11              | 7                   |\n\n| P5       | 17              | 9                   |\n\nQuale delle seguenti affermazioni \u00e8 falsa?\n\n> Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling a feedback classico di Unix\n\n> Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling Virtual Round-Robin\n\n> Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling Round-Robin\n\n> Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling SRT\n\n",
+        "ans": "4"
+    },
+    "13": {
+        "str": "13) Considerare un insieme di cinque processi P1, P2, P3, P4, P5 con i seguenti tempi di arrivo e tempi di esecuzione in millisecondi:\n\n| Processo         | Tempo di Arrivo         | Tempo di Esecuzione         |\n\n|----------        |-----------------        |---------------------        |\n\n| P1               | 0                       | 14                          |\n\n| P2               | 8                       | 16                          |\n\n| P3               | 5                       | 3                           |\n\n| P4               | 11                      | 7                           |\n\n| P5               | 17                      | 9                           |\n\nAssegnare questo insieme di processi ad un processore usando l'algoritmo di scheduling SRT, \ufb01no a che non terminano tutti. Quale delle seguenti affermazioni \u00e8 falsa?\n\n> Gli unici 2 processi che non sono serviti subito (ovvero, appena arrivati) sono P3 e P5\n\n> Il tempo medio di attesa \u00e8 tra 10 ed 11 ms\n\n> Il processo con il pi\u00f9 lungo tempo di attesa \u00e8 P1\n\n> Il tempo medio di turnaround \u00e8 tra 2 e 3 ms\n\n",
+        "ans": "1"
+    },
+    "14": {
+        "str": "14) Quale delle seguenti affermazioni sulla segmentazione della memoria \u00e8 falsa?\n\n> Diversi segmenti possono avere diverse lunghezze\n\n> Differentemente dalla paginazione, il programmatore assembler di un processo non interagisce esplicitamente con la gestione dei segmenti\n\n> Per accedere ad un indirizzo contenuto in un segmento di un processo, tale segmento dovr\u00e0 essere posizionato in memoria principale\n\n> Un indirizzo di memoria principale va visto come un numero di segmento pi\u00f9 uno spiazzamento all'interno di tale segmento\n\n",
+        "ans": "2"
+    },
+    "15": {
+        "str": "15) Quale delle seguenti affermazioni sull'algoritmo per il rilevamento del deadlock visto a lezione \u00e8 vera?\n\n> Richiede in input, per ogni processo p e per ogni risorsa r, il numero massimo di istanze di r che p chieder\u00e0 nel corso della sua esecuzione\n\n> Se al passo 3 viene trovato un processo non marcato che soddisfi la condizione Qik \u2264 wik, allora c'\u00e8 un deadlock\n\n> I processi marcati sono quelli che non sono coinvolti in un deadlock\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "3"
+    },
+    "16": {
+        "str": "16) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sul long-term scheduler \u00e8 falsa?\n\n> Viene chiamato in causa esclusivamente quando viene creato un nuovo processo\n\n> Avendo le necessarie informazioni, una tipica strategia \u00e8 mantenere una giusta proporzione, stabilita a priori, tra processi I/O-bound e CPU-bound\n\n> Avendo le necessarie informazioni, una tipica strategia \u00e8 ammettere in memoria principale i processi che richiedono dispositivi di I/O diversi da [...]\n\n> Decide quali processi, tra quelli appena creati, possono essere ammessi in memoria principale per l'esecuzione\n\n",
+        "ans": "1"
+    },
+    "17": {
+        "str": "17) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n> Il difetto principale del prepaging \u00e8 che potrebbe portare in memoria pagine cui poi non si fa riferimento\n\n> Placement policy e replacement policy sono sinonimi ed indicano lo stesso insieme di metodologie\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Il difetto principale del paging on demand \u00e8 che causa molti page fault dopo alcuni secondi di esecuzione\n\n",
+        "ans": "1"
+    },
+    "18": {
+        "str": "18) Quale dei seguenti requisiti deve soddisfare un meccanismo che offra la mutua esclusione?\n\n> Non deve essere fatta alcuna assunzione sulla velocit\u00e0 di esecuzione dei processi coinvolti\n\n> Se un processo fa richiesta di entrare nella sezione critica, deve poterlo fare subito\n\n> Se un processo non fa richiesta di entrare nella sezione critica, deve comunque accordarsi all'esecuzione degli altri processi\n\n> Si pu\u00f2 assumere che un processo che non sia nella sezione critica prima o poi ci entri\n\n        \n",
+        "ans": "1"
+    },
+    "19": {
+        "str": "19) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n> Il principio di localit\u00e0 afferma che poche pagine saranno sempre sufficienti per eseguire ogni processo senza thrashing\n\n> Il thrashing si verifica quando l'overhead dovuto alla gestione della paginazione \u00e8 molto basso\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> La paginazione con memoria virtuale funziona bene nonostante il principio di localit\u00e0\n\n",
+        "ans": "3"
+    },
+    "20": {
+        "str": "20) Quale delle seguenti affermazioni sullo scambio messaggi per la gestione della concorrenza \u00e8 vera? \n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> L'implementazione delle primitive per lo scambio messaggi non \u00e8 garantita atomica dal sistema operativo\n\n> Se un processo chiama receive, finch\u00e9 il messaggio non viene ricevuto, tutti gli altri processi che proveranno a chiamare receive verranno bloccati\n\n> Per garantire la mutua esclusione, occorre ricorrere al busy waiting se sia invio che ricezione sono non bloccanti\n\n",
+        "ans": "4"
+    },
+    "21": {
+        "str": "21) Quali delle seguenti affermazioni sui file system \u00e8 vera?\n\n> I dati possono essere ricavati dai metadati\n\n> I metadati possono essere ricavati dai dati\n\n> I file system, che adottano il metodo journaling, mantengono un log per le operazioni di sola scrittura da effettuare, realizzandole in seguito\n\n> Un volume coincide sempre con un disco, quindi se un computer ha 2 dischi avr\u00e0 2 volumi\n\n",
+        "ans": "3"
+    },
+    "22": {
+        "str": "22) Quale delle seguenti affermazioni sui dispositivi di I/O \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Il data rate confronta le velocit\u00e0 di 2 diversi dispositivi di I/O\n\n> Ciascun dispositivo di I/O pu\u00f2 essere usato solo da un ben determinato tipo di applicazioni\n\n> Tutti i dispositivi di I/O scambiano informazioni con la CPU in blocchi, per motivi di efficienza\n\n",
+        "ans": "1"
+    },
+    "23": {
+        "str": "23) Quale delle seguenti affermazioni sui metodi di gestione dello spazio libero su disco \u00e8 vera?\n\n> Se viene usata la lista di blocchi liberi, c'\u00e8 un overhead di spazio, contrariamente alla concatenazione di blocchi liberi\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Se ci sono blocchi da 1kB, e il disco contiene 1TB, l'occupazione dovuta alla lista di blocchi liberi \u00e8 dell'1%\n\n> Se viene usata la lista di blocchi liberi, una parte viene memorizzata su disco ed una parte in memoria principale\n\n",
+        "ans": "1"
+    },
+    "24": {
+        "str": "24) Quale delle seguenti azioni va effettuata sia per un process switch che per un mode switch, assumendo di essere in un SO nel quale le funzioni di sistema sono eseguite all'interno dei processi utente?\n\n> Salvataggio del contesto del programma\n\n> Aggiornamento delle strutture dati per la gestione della memoria\n\n> Spostamento del process control block nella coda appropriata (ready, blocked, ready/suspend)\n\n> Scelta di un altro processo da eseguire\n\n",
+        "ans": "1"
+    },
+    "25": {
+        "str": "25) Quale delle seguenti affermazioni \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Nell'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache, un blocco passa da un segmento ad un altro esclusivamente per scorrimento\n\n> L'algoritmo di LFU della page cache ha buone performance quando un settore viene acceduto molto spesso in poco tempo, per poi non essere pi\u00f9 usato\n\n> L'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache pu\u00f2 non avere buone performance quando un settore viene acceduto spesso, ma tra il primo accesso e quelli successivi ci sono N accessi ad altri settori, diversi tra loro, con N pari alla dimensione del segmento nuovo\n\n",
+        "ans": "2"
+    },
+    "26": {
+        "str": "26) Quale delle seguenti affermazioni sul kernel di un sistema operativo \u00e8 vera?\n\n> \u00c8 responsabile dell'accensione del computer\n\n> Viene swappato dal disco alla memoria principale ad ogni context switch\n\n> \u00c8 responsabile, tra le altre cose, della gestione dei processori\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n",
+        "ans": "3"
+    },
+    "27": {
+        "str": "27) Quale delle seguenti affermazioni sul controllo di accesso \u00e8 vera?\n\n> Nel controllo di accesso basato su ruoli, ad ogni ruolo \u00e8 assegnato un utente\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Nel controllo di accesso basato su ruoli, prima di stabilire se un'operazione \u00e8 lecita, \u00e8 necessario consultare una tabella soggetti-ruoli-oggetti\n\n> Nel controllo di accesso discrezionale, prima di stabilire se un'operazione \u00e8 lecita, \u00e8 necessario consultare una tabella soggetti-oggetti\n\n",
+        "ans": "4"
+    },
+    "28": {
+        "str": "28) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sulla preemption \u00e8 vera?\n\n> Se uno scheduler \u00e8 non-preemptive, permette sempre ai suoi processi di essere eseguiti sul processore, senza interruzioni, fino al loro completamento\n\n> Se uno scheduler \u00e8 non-preemptive, \u00e8 possibile che un processo monopolizzi il processore, anche in presenza di altri processi ready\n\n> Se uno scheduler \u00e8 preemptive, non \u00e8 possibile che un processo monopolizzi il processore, anche in presenza di altri processi ready\n\n> Per avere un trattamento equo sui processi, \u00e8 sufficiente usare uno scheduler preemptive\n\n",
+        "ans": "2"
+    },
+    "29": {
+        "str": "29)  Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling \u00e8 vera?\n\n> Con lo scheduler Shortest Process Next, i processi con una grande immagine su RAM potrebbero soffrire di starvation\n\n> Lo scheduler round-robin virtuale migliora il round-robin classico, facendo s\u00ec che i processi I/O-bound non vengano sfavoriti\n\n> Lo scheduler First Come First Served \"degenera\" nello scheduler round-robin se il quanto di tempo \u00e8 troppo lungo\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "2"
+    },
+    "30": {
+        "str": "30) Quale delle seguenti affermazioni sugli indirizzi di memoria principale \u00e8 vera?\n> Un indirizzo \ufb01sico fa sempre riferimento alla memoria secondaria\n\n> Per rispettare il requisito di rilocazione, occorre trasformare indirizzi \ufb01sici in logici\n\n> Gli indirizzi relativi sono usati nella paginazione\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n",
+        "ans": "3"
+    },
+    "31": {
+        "str": "31) Quale delle seguenti affermazioni sui termini tipici della concorrenza \u00e8 falsa?\n> Una sezione critica \u00e8 una porzione di memoria che contiene almeno una variabile condivisa tra pi\u00f9 processi\n> Una operazione atomica \u00e8 una sequenza di istruzioni macchina tale che, se un processo la esegue, allora arriver\u00e0 a termine senza interruzioni da altri processi\n\n> Il requisito di mutua esclusione prevede che un solo processo possa eseguire un certo segmento di codice o accedere ad una determinata risorsa\n> Una race condition \u00e8 una violazione della mutua esclusione || \u00c8 possibile che 2 distinti processi chiamino la stessa funzione atomica\n\n",
+        "ans": "1"
+    },
+    "32": {
+        "str": "32) Quale dei seguenti elementi fa parte del process control block?\n\n> Nessuna delle altre opzioni contiene elementi del process control block\n\n> Le informazioni sul contesto del processo, aggiornate ad ogni istruzione eseguita\n\n> L'intera immagine del processo in memoria\n\n> La tabella delle pagine di secondo livello\n\n",
+        "ans": "1"
+    },
+    "33": {
+        "str": "33) Quale delle seguenti informazioni non \u00e8 presente in una tipica entry di una directory di un \ufb01le system?\n\n> Il gruppo cui appartiene l'utente che ha creato il \ufb01le\n> La data di creazione del \ufb01le\n\n> Autorizzazioni per l'accesso al \ufb01le\n\n> Dimensione del \ufb01le\n\n",
+        "ans": "1"
+    },
+    "34": {
+        "str": "34) Quale delle seguenti affermazioni sugli algoritmi di scheduling per i dischi \u00e8 vera?\n\n> L'algoritmo random ha la stessa funzione dell'algoritmo ottimo dei rimpiazzamenti di pagina: ha delle prestazioni ottime non raggiungibili dagli altri algoritmi\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> L'algoritmo C-SCAN deriva da SCAN, ed \u00e8 stato sviluppato per evitare di favorire le richieste di tracce ai bordi del disco\n\n> Per valutare le prestazioni dell'algoritmo con priorit\u00e0 \u00e8 necessario fornire il ruolo dell'utente\n\n",
+        "ans": "3"
+    },
+    "35": {
+        "str": "35) Quale delle seguenti affermazioni sugli algoritmi di scheduling per i dischi \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> L'algoritmo C-SCAN deriva da SCAN, ed \u00e8 stato sviluppato per evitare di favorire le richieste di tracce ai bordi del disco\n\n> Per valutare le prestazioni dell'algoritmo con priorit\u00e0 \u00e8 sufficiente fornire il ruolo degli utenti dei processi che effettuano le richieste\n\n> L'algoritmo random ha la stessa funzione dell'algoritmo ottimo dei rimpiazzamenti di pagina: ha delle prestazioni ottime non raggiungibili dagli altri algoritmi\n\n",
+        "ans": "2"
+    },
+    "36": {
+        "str": "36) Quale delle seguenti affermazioni sul metodo di allocazione contigua dei file \u00e8 vera?\n\n> \u00c8 possibile che ci sia frammentazione interna\n\n> La compattazione permette di memorizzare file che altrimenti non potrebbero esserlo (pur essendo la loro dimensione minore di quella dello spazio libero)\n\n> Non \u00e8 necessaria la preallocazione\n\n> La tabella di allocazione dei file necessita di memorizzare, per ogni file, il solo blocco di partenza\n\n",
+        "ans": "2"
+    },
+    "37": {
+        "str": "37) Quale delle seguenti affermazioni sulla paginazione della memoria \u00e8 vera?\n\n> Frame e pagine devono avere la stessa dimensione\n\n> Tutte le pagine di un processo dovranno essere, prima o poi, posizionate in un frame\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Soffre del problema della frammentazione interna, e quindi necessita compattazione\n\n",
+        "ans": "1"
+    },
+    "38": {
+        "str": "38) Quale delle seguenti affermazioni sul controllo di accesso \u00e8 vera?\n\n> Nel controllo di accesso basato su ruoli, ad ogni ruolo \u00e8 assegnato un utente\n\n> Nel controllo di accesso basato su ruoli, prima di stabilire se un'operazione \u00e8 lecita, \u00e8 necessario consultare una tabella soggetti-ruoli-oggetti\n\n> Nel controllo di accesso discrezionale, prima di stabilire se un'operazione \u00e8 lecita, \u00e8 necessario consultare una tabella soggetti-oggetti\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "3"
+    },
+    "39": {
+        "str": "39) Quale delle seguenti affermazioni \u00e8 falsa?\n\n> Nel caso delle risorse riusabili, in un grafo dell'allocazione delle risorse ci possono essere pi\u00f9 archi tra lo stesso nodo-processo e lo stesso nodo-risorsa\n\n> Nel caso delle risorse riusabili, in un grafo dell'allocazione delle risorse ci possono essere archi sia da nodi-processi a nodi-risorse che viceversa\n\n> Un grafo dell'allocazione delle risorse \u00e8 un grafo diretto aciclico\n\n> In un grafo dell'allocazione delle risorse, all'interno di un nodo rappresentante una risorsa, c'\u00e8 un pallino per ogni istanza di quella risorsa\n\n",
+        "ans": "3"
+    },
+    "40": {
+        "str": "40) Quali delle seguenti affermazioni \u00e8 vera?\n\n> La confidenzialit\u00e0 di un sistema operativo consiste nel fatto che la shell del sistema operativo deve essere intuitiva e dare del tu agli utenti\n\n> La disponibilit\u00e0 (availability) di un sistema operativo consiste nel fatto che il sistema operativo deve essere sempre pronto a rispondere alle richieste di un utente\n\n> La disponibilit\u00e0 (availability) di un sistema operativo consiste nel fatto che devono esistere delle repository online che permettano sia di installare che di aggiornare il sistema operativo\n\n> La confidenzialit\u00e0 di un sistema operativo consiste nel fatto che il sistema operativo deve essere sempre pronto a rispondere alle richieste di un utente\n\n",
+        "ans": "2"
+    },
+    "41": {
+        "str": "41) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n> Il difetto principale del prepaging \u00e8 che potrebbe portare in memoria pagine cui poi non si fa riferimento\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Il difetto principale del paging on demand \u00e8 che, dopo una prima fase di assestamento, causa molti page fault\n\n> Placement policy e replacement policy sono sinonimi ed indicano lo stesso insieme di metodologie\n\n",
+        "ans": "1"
+    },
+    "42": {
+        "str": "42) Quale delle seguenti affermazioni sui dispositivi di memoria di massa \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Un settore di un disco magnetico a testina mobile \u00e8 l'area di una corona circolare del disco stesso\n\n> Una traccia di un disco magnetico a testina mobile \u00e8 l'area compresa da 2 raggi del disco stesso\n\n> Per selezionare un settore su una traccia di un disco magnetico a testina mobile, \u00e8 sufficiente posizionare la testina sulla giusta traccia\n\n\n\n",
+        "ans": "1"
+    },
+    "43": {
+        "str": "43) Quale delle seguenti affermazioni sul process control block \u00e8 vera?\n\n> Viene salvato nella memoria utente assegnata al processo cui si riferisce\n\n> Contiene tutte le informazioni sui thread del processo cui si riferisce\n\n> Per i processi in modalit\u00e0 blocked, tutte le informazioni che contiene sono cancellate\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "4"
+    },
+    "44": {
+        "str": "44) Quale delle seguenti affermazioni sui semafori per la gestione della concorrenza \u00e8 falsa?\n\n> Semafori generali e semafori binari hanno lo stesso potere computazionale (ovvero, permettono di risolvere gli stessi problemi)\n\n> Le primitive sui semafori sono in grado di mettere un processo in blocked, senza usare, a tal proposito, il busy-waiting\n\n> Per implementare le primitive sui semafori, servono un contatore ed una coda, che saranno condivisi da tutti i semafori usati\n\n> L'implementazione delle primitive sui semafori \u00e8 garantita atomica dal sistema operativo\n\n",
+        "ans": "3"
+    },
+    "45": {
+        "str": "45) Quale delle seguenti affermazioni sugli algoritmi di scheduling per i dischi \u00e8 falsa?\n\n> Nell'algoritmo F-SCAN, immediatamente prima che vengano scambiati i contenuti delle code F ed R, la coda F \u00e8 vuota, mentre la coda R contiene le richieste arrivate mentre si servivano le richieste dentro F\n\n> L'algoritmo Minimum Service Time pu\u00f2 portare alla starvation di un processo, che non verr\u00e0 quindi mai selezionato, se la richiesta era bloccante, per andare in esecuzione sul processore\n\n> L'algoritmo LIFO \u00e8 il pi\u00f9 equo nei confronti dei processi che effettuano le richieste al disco\n\n> Gli algoritmi Minimum Service Time, SCAN, C-SCAN, N-steps-SCAN ed F-SCAN non sono ottimizzati per essere usati su dischi con testine multiple selezionabili elettronicamente\n\n",
+        "ans": "3"
+    },
+    "46": {
+        "str": "46) Quale delle seguenti affermazioni sui meccanismi per la gestione della concorrenza \u00e8 vera? \n\n> Senza usare n\u00e9 semafori, n\u00e9 scambio messaggi, n\u00e9 istruzioni macchina atomiche, \u00e8 possibile scrivere processi che non soffrano di starvation per garantire la mutua esclusione tra 2 processi\n\n> Disabilitando gli interrupt, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n> Usando i semafori di qualsiasi tipo, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n> Usando le istruzioni macchina exchange e compare_and_swap, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n",
+        "ans": "1"
+    },
+    "47": {
+        "str": "47) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sul long-term scheduler \u00e8 falsa?\n\n> Decide quali processi, tra quelli appena creati, possono essere ammessi in memoria principale per l'esecuzione\n\n> Avendo le necessarie informazioni, una tipica strategia \u00e8 mantenere una giusta proporzione, stabilita a priori, tra processi I/O-bound e CPU-bound\n\n> Viene chiamato in causa esclusivamente quando viene creato un nuovo processo\n\n> Avendo le necessarie informazioni, una tipica strategia \u00e8 ammettere in memoria principale i processi che richiedono dispositivi di I/O diversi da quelli richiesti dai processi gi\u00e0 attivi\n\n",
+        "ans": "3"
+    },
+    "48": {
+        "str": "48) Quale delle seguenti affermazioni sui metodi di gestione dello spazio libero su disco \u00e8 vera? \n\n> Se ci sono blocchi da 1kB, e il disco contiene 1TB, l'occupazione dovuta alla lista di blocchi liberi \u00e8 dell'1%\n\n> Se viene usata la lista di blocchi liberi, tale lista viene interamente mantenuta in memoria principale\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Se viene usata la lista di blocchi liberi, c'\u00e8 un overhead di spazio, contrariamente alla concatenazione di blocchi liberi\n\n",
+        "ans": "4"
+    },
+    "49": {
+        "str": "49) Quale delle seguenti affermazioni sulle directory di un file system \u00e8 vera?\n\n> \u00c8 sempre necessario identificare un file di un file system fornendone il path relativo alla directory corrente\n\n> \u00c8 sempre possibile dare lo stesso nome a file diversi\n\n> Nessuna delle altre opzioni \u00e8 vera  \n\n> \u00c8 sempre necessario identificare un file di un file system fornendone il path assoluto\n\n",
+        "ans": "3"
+    },
+    "50": {
+        "str": "50) Quale delle seguenti affermazioni sulla memoria cache \u00e8 vera?\n\n> La memoria cache \u00e8 direttamente indirizzabile in assembler\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> \u00c8 possibile che, in un dato istante, la cache e la memoria RAM non siano coerenti tra loro\n\n> L'algoritmo di rimpiazzamento per la cache stabilisce quale blocco di RAM deve essere sostituito da un blocco di cache\n\n",
+        "ans": "3"
+    },
+    "51": {
+        "str": "51) Quale delle seguenti affermazioni sui problemi dei produttori/consumatori e dei lettori/scrittori, nelle accezioni viste a lezione, \u00e8 vera?\n\n> Per il problema dei produttori/consumatori, non deve essere mai possibile che pi\u00f9 consumatori accedano contemporaneamente al buffer, mentre nel problema dei lettori/scrittori deve sempre possibile che pi\u00f9 lettori, in assenza di scrittori, accedano all'area di memoria\n\n> Per il problema dei produttori/consumatori, non deve essere mai possibile che pi\u00f9 produttori accedano contemporaneamente al buffer, mentre nel problema dei lettori/scrittori deve essere sempre possibile che pi\u00f9 scrittori (in assenza di lettori) accedano all'area di memoria\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Per il problema dei produttori/consumatori, deve essere sempre possibile che pi\u00f9 consumatori accedano contemporaneamente al buffer, mentre nel problema dei lettori/scrittori non deve essere mai possibile che pi\u00f9 scrittori accedano all'area di memoria\n\n",
+        "ans": "1"
+    },
+    "52": {
+        "str": "52) Quale delle seguenti affermazioni, riguardanti il joint progress diagram di 2 processi, \u00e8 vera?\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi sperimenta un page fault\n\n> Pu\u00f2 essere usato per visualizzare le possibilit\u00e0 di deadlock, ma solo se i processi richiedono al massimo 2 risorse\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi manda un segnale all'altro\n\n\n",
+        "ans": "3"
+    },
+    "53": {
+        "str": "53) Quale delle seguenti affermazioni sui (vecchi) metodi per il partizionamento della memoria \u00e8 vera?\n\n> Con il partizionamento fisso, le partizioni devono avere tutte la stessa dimensione\n\n> Con il buddy system, ogni indirizzo di memoria pu\u00f2 ricadere in 2 porzioni\n\n> Con il partizionamento fisso, ci possono essere al massimo N processi attivi (ovvero, accettati per l'esecuzione), dove N \u00e8 il numero di partizioni\n\n> Con il partizionamento dinamico, si manifesta il problema della frammentazione esterna\n\n",
+        "ans": "4"
+    },
+    "54": {
+        "str": "54) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sulla preemption \u00e8 vera?\n\n> Se uno scheduler \u00e8 preemptive e vi \u00e8 pi\u00f9 di 1 processo ready, non \u00e8 possibile che un processo monopolizzi il processore\n\n> Per avere un trattamento equo sui processi, \u00e8 sufficiente usare uno scheduler preemptive\n\n> Se uno scheduler \u00e8 non-preemptive, permette sempre ai suoi processi di essere eseguiti senza interruzioni sul processore fino al loro completamento\n\n> Se uno scheduler \u00e8 non-preemptive, \u00e8 possibile che un processo monopolizzi il processore, anche in presenza di altri processi ready\n\n",
+        "ans": "4"
+    },
+    "55": {
+        "str": "55) Nel modello dei processi a 5 stati, quali delle seguenti transizioni non \u00e8 possibile?\n\n> Blocked ==> Running\n\n> Running ==> Ready\n\n> Blocked ==> Exit\n\n> Blocked ==> Ready\n\n",
+        "ans": "1"
+    },
+    "56": {
+        "str": "56) Quale delle seguenti affermazioni sul metodo di allocazione indicizzata dei file \u00e8 vera?\n\n> Il consolidamento permette sempre di ridurre la dimensione dell'indice\n\n> Se usato con porzioni di dimensione variabile, i blocchi indice devono contenere anche la lunghezza di ogni porzione\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Non c'\u00e8 modo per il sistema operativo di distinguere tra blocchi con dati e blocchi con indici\n\n",
+        "ans": "2"
+    },
+    "57": {
+        "str": "57) Quale delle seguenti affermazioni sul requisito di rilocazione nella gestione della memoria \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Se viene realizzato tramite sostituzione degli indirizzi nel programma sorgente (al momento della creazione del processo), allora il relativo processo dovr\u00e0 cominciare sempre allo stesso indirizzo; tale indirizzo dovr\u00e0 essere uguale per tutti i processi\n\n> Se viene realizzato tramite sostituzione degli indirizzi nel programma sorgente (al momento della creazione del processo), allora il relativo processo potr\u00e0 trovarsi in diverse posizioni della memoria in diversi momenti del sua esecuzione\n\n> Se viene realizzato tramite sostituzione degli indirizzi nel programma sorgente (al momento della creazione del processo), serve hardware speciale\n\n",
+        "ans": "1"
+    },
+    "58": {
+        "str": "58) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sulla preemption \u00e8 vera?\n\n> Se uno scheduler \u00e8 non-preemptive, permette sempre ai suoi processi di essere eseguiti sul processore, senza interruzioni, fino al loro completamento\n\n> Se uno scheduler \u00e8 non-preemptive, \u00e8 possibile che un processo monopolizzi il processore, anche in presenza di altri processi ready\n\n> Se uno scheduler \u00e8 preemptive, non \u00e8 possibile che un processo monopolizzi il processore, anche in presenza di altri processi ready\n\n> Per avere un trattamento equo sui processi, \u00e8 sufficiente usare uno scheduler preemptive\n\n",
+        "ans": "2"
+    },
+    "59": {
+        "str": "59) Quale dei seguenti requisiti deve soddisfare un meccanismo che offra la mutua esclusione?\n\n>Non deve essere fatta alcuna assunzione sulla velocit\u00e0 di esecuzione dei processi coinvolti\n\n>Se un processo non fa richiesta di entrare nella sezione critica, deve comunque sincronizzarsi all'esecuzione degli altri processi\n\n>Se un processo \u00e8 nella sezione critica, occorre che rilasci subito la sezione critica stessa\n\n>Se un processo fa richiesta di entrare nella sezione critica, deve poter entrare subito nella sezione critica stessa\n\n",
+        "ans": "1"
+    },
+    "60": {
+        "str": "60) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sul dispatcher \u00e8 falsa?\n\n>Il resource balancing \u00e8 un criterio di sistema non prestazionale\n\n>Il rispetto delle deadline \u00e8 un criterio utente prestazionale\n\n>Il throughput \u00e8 un criterio di sistema prestazionale\n\n>La predictability \u00e8 un criterio utente prestazionale\n\n",
+        "ans": "4"
+    },
+    "61": {
+        "str": "61) Quale delle seguenti affermazioni sugli interrupt (o eccezioni) \u00e8 falsa?\n\n>Devono essere gestiti da opportuno software di sistema\n\n>Una volta gestito l'interrupt o l'eccezione, quando (e se) si torna ad eseguire il processo interrotto, l'esecuzione ripartir\u00e0 sempre dall'istruzione successiva a quella dove \u00e8 stato ricevuto l'interrupt o l'eccezione\n\n>Normalmente, non vengono gestiti dal programmatore dell'applicazione che li ha causati\n\n>Possono essere creati direttamente dai dispositivi di I/O\n\n",
+        "ans": "2"
+    },
+    "62": {
+        "str": "62) Quale delle seguenti affermazioni sulle istruzioni macchina speciali per la gestione della concorrenza \u00e8 vera?\n\n>Sono basate sul busy-waiting, ovvero sul fatto che un processo si mette autonomamente in stato blocked\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>Non riescono ad evitare il manifestarsi del deadlock, a meno che non sia presente un sistema a priorit\u00e0\n\n>Come per la disabilitazione delle interruzioni, non funzionano per architetture con pi\u00f9 processori o core\n\n",
+        "ans": "2"
+    },
+    "63": {
+        "str": "63) Quale delle seguenti affermazioni sui processi \u00e8 vera?\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>Per la terminazione normale di un processo, \u00e8 tipicamente prevista un'apposita system call, come ad esempio exit\n\n>Un processo pu\u00f2 morire quando si effettua il process spawning\n\n>Un processo pu\u00f2 essere creato dal modulo di gestione della memoria per gestire la traduzione da indirizzi virtuali a fisici\n\n\n",
+        "ans": "2"
+    },
+    "64": {
+        "str": "64) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza \u00e8 vera?\n\n>Sia l'algoritmo di Dekker che quello di Peterson possono mettere in blocked uno dei 2 processi, quando ci\u00f2 si rivela necessario\n\n>Sia l'algoritmo di Dekker che quello di Peterson non funzionano se l'hardware sottostante riordina gli accessi in memoria\n\n>Nell'algoritmo di Peterson, se la variabile turn \u00e8 inizializzata ad 1, allora il processo 1 sar\u00e0 sicuramente il primo ad entrare nella sezione critica nella prima iterazione\n\n>Nell'algoritmo di Dekker, se la variabile turn \u00e8 inizializzata ad 1, allora il processo 1 sar\u00e0 sicuramente il primo ad entrare nella sezione critica nella prima iterazione\n\n",
+        "ans": "2"
+    },
+    "65": {
+        "str": "65) Quale delle seguenti affermazioni sugli i-node di Unix \u00e8 falsa?\n\n>Ogni directory \u00e8 identificata da un i-node\n\n>Per modificare una directory, un utente deve aprire il file speciale corrispondente e poi modificarlo opportunamente\n\n>Ogni directory \u00e8 un file speciale, organizzato come una lista di entry, ciascuna delle quali contiene il nome di un file ed il relativo i-node number\n\n>Ogni directory pu\u00f2 contenere molti i-node\n\n",
+        "ans": "2"
+    },
+    "66": {
+        "str": "66) Quale delle seguenti affermazioni \u00e8 falsa?\n\n>Nel caso di un sistema operativo a kernel separato, la gestione dei process switch \u00e8 a sua volta un processo\n\n>Nel caso di un sistema operativo in cui le funzioni del sistema operativo vengono eseguite all'interno dei processi utente, non c'\u00e8 bisogno di un process switch per eseguire una funzionalit\u00e0 del sistema operativo\n\n>Nel caso di un sistema operativo in cui le funzioni del sistema operativo vengono eseguite all'interno dei processi utente, se un processo effettua una syscall e poi pu\u00f2 continuare ad essere eseguito, non avviene alcun process switch\n\n>Nel caso di un sistema operativo in cui le funzioni del sistema operativo vengono eseguite come processi separati, c'\u00e8 sempre bisogno di un process switch per eseguire una funzionalit\u00e0 del sistema operativo\n\n",
+        "ans": "1"
+    },
+    "67": {
+        "str": "67) Quale delle seguenti affermazioni sulla paginazione della memoria \u00e8 vera?\n\n>La differenza tra paginazione semplice e paginazione con memoria virtuale \u00e8 che nella seconda viene richiesto che tutte le pagine di un processo siano in memoria principale, affinch\u00e9 il processo stesso possa essere eseguito\n\n>Con la paginazione con memoria virtuale, una sola pagina di ogni processo ready o in esecuzione \u00e8 inizialmente caricata in memoria principale\n\n>La differenza tra paginazione semplice e paginazione con memoria virtuale \u00e8 che nella prima viene richiesto che tutte le pagine di un processo siano in memoria principale, affinch\u00e9 il processo stesso possa essere eseguito\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "3"
+    },
+    "68": {
+        "str": "68) Quale delle seguenti affermazioni sul metodo di allocazione concatenata dei file \u00e8 vera?\n\n>Il consolidamento permette di memorizzare file che altrimenti non potrebbero esserlo (pur essendo la loro dimensione minore di quella dello spazio libero)\n\n>La tabella di allocazione dei file deve contenere l'intera catena\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>Viene usato con porzioni di dimensione variabile, ma piccola\n\n",
+        "ans": "3"
+    },
+    "69": {
+        "str": "69) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n>Nel caso di una tabella delle pagine a 2 livelli, viene tipicamente richiesto che tutte le tabelle delle pagine di secondo livello entrino in una pagina\n\n>Il numero di bit di un indirizzo virtuale \u00e8 necessariamente diverso a seconda che si usi una tabella delle pagine ad 1 o a 2 livelli\n\n>Il numero di bit di una entry di una tabella delle pagine di ultimo livello \u00e8 uguale al numero di bit di controllo pi\u00f9 il logaritmo (arrotondato all'intero superiore) del massimo numero di frame in memoria principale\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n",
+        "ans": "3"
+    },
+    "70": {
+        "str": "70) Quale delle seguenti affermazioni sul deadlock \u00e8 falsa?\n\n>Affinch\u00e8 ci sia un deadlock, sono necessarie le condizioni di attesa circolare, hold-and-wait, mutua esclusione e no preemption\n\n>Per prevenire il deadlock, \u00e8 necessario cercare di impedire almeno una delle 3 condizioni di mutua esclusione, hold-and-wait e no preemption\n\n>Affinch\u00e8 il deadlock sia possibile, sono necessarie le condizioni di mutua esclusione, hold-and-wait e no preemption\n\n>Per prevenire il deadlock impedendo l'hold-and-wait, si pu\u00f2 in alcuni casi imporre ai processi di richiedere tutte le risorse fin dall'inizio\n\n",
+        "ans": "1"
+    },
+    "71": {
+        "str": "71) Quale delle seguenti affermazioni \u00e8 vera?\n\n>La modalit\u00e0 di un processo utente \u00e8 sempre la modalit\u00e0 di sistema\n\n>La modalit\u00e0 di un processo utente \u00e8 inizialmente la modalit\u00e0 utente; pu\u00f2 diventare modalit\u00e0 sistema nel momento in cui va in esecuzione il dispatcher\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>La modalit\u00e0 di un processo utente \u00e8 sempre la modalit\u00e0 utente\n\n",
+        "ans": "3"
+    },
+    "72": {
+        "str": "72) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n>Per ogni processo, il resident set contiene lo stesso numero di pagine\n\n>Un tipico algoritmo per il replacement scope \u00e8 quello dell'orologio\n\n>La gestione del resident set tramite politica dinamica mira ad ampliare il numero di pagine di un processo durante l'esecuzione del processo stesso\n\n\n",
+        "ans": "1"
+    },
+    "73": {
+        "str": "73) Si consideri il seguente modo di implementare la mutua esclusione:\n\n```\n\nint bolt = 1;\n\nvoid P(int i) {\n\n                  while(true) {\n\n                    while (compare_and_swap(bolt, 1, 0) == 0) ;\n\n                    critical_section();\n\n                    bolt = 1;\n\n        }\n\n}\n\n```\n\nQuale delle seguenti affermazioni \u00e8 vera?\n\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>La soluzione implementa correttamente la mutua esclusione solo se si disabilitano le interruzioni prima di chiamare P\n\n>La soluzione non implementa correttamente la mutua esclusione perch\u00e9 bisogna chiamare exchange invece di compare_and_swap\n\n>La soluzione non implementa correttamente la mutua esclusione\n\n",
+        "ans": "1"
+    },
+    "74": {
+        "str": "74) Quale delle seguenti affermazioni sulla concorrenza tra processi o thread \u00e8 vera?\n\n>L'istruzione exchange non pu\u00f2 ricevere costanti in input su nessun suo argomento, mentre per l'istruzione compare_and_swap questo non vale\n\n>Le istruzioni speciali exchange e compare_and_swap sono garantite atomiche dal sistema operativo\n\n>Per realizzare opportunamente l'istruzione compare_and_swap \u00e8 sufficiente disabilitare le interruzioni\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "1"
+    },
+    "75": {
+        "str": "75)  Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sul dispatcher \u00e8 falsa?\n\n>Il response time \u00e8 un criterio utente prestazionale\n\n>Il turnaround time (normalizzato o no) \u00e8 un criterio utente prestazionale\n\n>Il throughput \u00e8 un criterio di sistema non prestazionale\n\n>La fairness \u00e8 un criterio di sistema non prestazionale\n\n",
+        "ans": "3"
+    },
+    "76": {
+        "str": "76) Quale delle seguenti affermazioni sul file system FAT \u00e8 vera?\n\n>Usa il metodo di allocazione contiguo\n\n>Ogni cluster del disco contiene sia dati del disco che l'indirizzo del prossimo cluster (o l'indicazione che si tratta dell'ultimo cluster)\n\n>La tabella di allocazione dei file contiene tante righe quanti sono i file memorizzati sul disco, pi\u00f9 una riga speciale per i blocchi liberi\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "4"
+    },
+    "77": {
+        "str": "77)  Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 falsa?\n\n>Il translation lookaside buffer, su alcuni processori, contiene un campo per il PID dei processi\n\n>Il translation lookaside buffer funziona correttamente solo se tutti i frame validi contenuti al suo interno fanno riferimento a pagine effettivamente in RAM, e non swappate su disco\n\n>Il mapping associativo permette al translation lookaside buffer di trovare una data pagina semplicemente sommando il numero della pagina con l'indirizzo di partenza del translation lookaside buffer stesso\n\n>Quando un indirizzo viene trovato nel translation lookaside buffer, non \u00e8 necessario consultare la normale tabella delle pagine\n\n",
+        "ans": "2"
+    },
+    "78": {
+        "str": "78)  Quale dei seguenti elementi non \u00e8 una delle parti che definiscono un processo?\n\n>Il contatore di programma\n\n>La priorit\u00e0\n\n>I dati contenuti nella porzione di memoria a lui dedicata\n\n>Informazioni sullo stato delle risorse\n\n",
+        "ans": "4"
+    },
+    "79": {
+        "str": "79)  Quale delle seguenti affermazioni, riguardanti la classificazione delle risorse di un sistema operativo e la loro relazione con il deadlock, \u00e8 vera?\n\n>Nel caso delle risorse consumabili, se c'\u00e8 un deadlock allora \u00e8 stata richiesta almeno una risorsa gi\u00e0 detenuta da un altro processo\n\n>Nel caso delle risorse consumabili, se c'\u00e8 un deadlock allora c'\u00e8 una successione circolare di processi, ciascuno dei quali richiede una risorsa al processo successivo, che per\u00f2 la deve ancora creare\n\n>Nel caso delle risorse riusabili, se c'\u00e8 un deadlock allora \u00e8 stata richiesta almeno una risorsa non ancora creata\n\n>Nel caso delle risorse riusabili, se c'\u00e8 un deadlock allora c'\u00e8 una successione circolare di processi, ciascuno dei quali richiede una risorsa al processo successivo, che per\u00f2 la deve ancora creare\n\n",
+        "ans": "2"
+    },
+    "80": {
+        "str": "80) Si supponga che ci siano N processi attivi, giostrati da uno scheduler round-robin su un sistema monoprocessore. Quale delle seguenti affermazioni \u00e8 vera?\n\n>Dal punto di vista del processore, ogni processo esegue sempre le proprie istruzioni senza interruzioni\n\n>Per realizzare correttamente un process switch, il SO avr\u00e0 necessit\u00e0 di usare le informazioni sul contesto contenute nel process control block\n\n>Dal punto di vista di ogni processo, l'esecuzione avviene in interleaving con gli altri processi\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "2"
+    },
+    "81": {
+        "str": "81) Quale delle seguenti affermazioni sulla traduzione di un indirizzo virtuale in fisico, in un sistema con memoria virtuale con paginazione (avente tabella delle pagine ad 1 livello), \u00e8 falsa?\n\n>L'hardware deve anche cercare il numero di pagina nelle entries della tabella delle pagine del processo in esecuzione.\n\n>L'hardware deve anche estrarre dall'indirizzo virtuale il numero di pagina virtuale; tale operazione \u00e8 equivalente ad una divisione intera\n\n>L'hardware deve anche usare il numero di pagina per accedere alla tabella delle pagine del processo in esecuzione. A tal proposito, deve conoscere l'inizio di tale tabella, che viene definito dal software (sistema operativo). Tale indirizzo pu\u00f2 cambiare durante l'esecuzione del processo: sta al sistema operativo mantenerlo aggiornato\n\n>L'hardware deve anche usare il numero di frame ottenuto dalla tabella delle pagine per comporre, insieme con l'offset originale, l'indirizzo fisico. Tale operazione \u00e8 equivalente ad uno shift seguito da una somma\n\n",
+        "ans": "1"
+    },
+    "82": {
+        "str": "82) Quale delle seguenti operazioni non \u00e8 tipicamente effettuata su un file?\n\n>Apertura\n\n>Connessione\n\n>Posizionamento (seek)\n\n>Lock/Unlock\n\n",
+        "ans": "2"
+    },
+    "83": {
+        "str": "83) Quale delle seguenti affermazioni \u00e8 falsa?\n\n>Diversi thread di uno stesso processo condividono lo stesso thread identifier\n\n>Tra le funzioni di sistema per i thread, \u00e8 tipicamente prevista una funzione per bloccare e sbloccare esplicitamente i thread stessi\n\n>Diversi thread di uno stesso processo condividono lo stesso process identifier\n\n>Diversi thread di uno stesso processo condividono i file aperti\n\n",
+        "ans": "1"
+    },
+    "84": {
+        "str": "84) Quale delle seguenti affermazioni sulla page cache \u00e8 falsa?\n\n>Nell'algoritmo di sostituzione basato su frequenza a 3 segmenti della page cache, i contatori vengono sempre incrementati, tranne quando sono nel segmento vecchio\n\n>Nell'algoritmo di sostituzione basato su frequenza a 3 segmenti della page cache, i settori che possono essere sostituiti sono solo quelli del segmento vecchio\n\n>Nell'algoritmo di sostituzione basato su frequenza a 3 segmenti della page cache, l'unico segmento in cui i contatori non vengono incrementati e i settori non possono essere sostituti \u00e8 quello nuovo\n\n>L'algoritmo di sostituzione basato su frequenza a 3 segmenti della page cache pu\u00f2 avere buone performance anche quando dei settori vengono acceduti spesso, ma tra il primo accesso e quelli successivi ci sono molti altri accessi ad altri settori\n\n",
+        "ans": "1"
+    },
+    "85": {
+        "str": "85) Quali delle seguenti affermazioni sulla efficienza di un sistema operativo \u00e8 falsa?\n\n>Deve minimizzare il tempo di risposta, tenendo presenti eventuali priorit\u00e0\n\n>Deve servire il maggior numero di utenti possibile, tenendo presenti eventuali livelli di accesso\n\n>Deve dare accesso alle risorse in modo equo ed egualitario tra tutti i processi\n\n>Deve massimizzare l'uso delle risorse per unit\u00e0 di tempo, tenendo presenti eventuali priorit\u00e0\n\n",
+        "ans": "3"
+    },
+    "86": {
+        "str": "86) Un computer esegue 20 istruzioni ogni microsecondo. Ricordando che 1 millisecondo = 1000 microsecondi = 1000000 nanosecondi, per eseguire una singola istruzione impiega:\n\n>0.05 microsecondi\n\n>0.05 millisecondi\n\n>0.05 nanosecondi\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n",
+        "ans": "1"
+    },
+    "87": {
+        "str": "87) Quale delle seguenti affermazioni sui metodi di gestione dello spazio libero su disco \u00e8 vera?\n\n>Uno dei possibili metodi \u00e8 quello di scorrere la tabella di allocazione dei file e ricavare per esclusione i blocchi liberi\n\n>Nel caso si usi un metodo di allocazione dinamica, non \u00e8 necessario aggiornare le informazioni sullo spazio libero quando vengono aggiunti dati ad un file\n\n>Se viene usata una tabella di bit, allora il metodo di allocazione non pu\u00f2 essere la preallocazione\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "4"
+    },
+    "88": {
+        "str": "88) Quale delle seguenti affermazioni sui metodi di gestione del deadlock \u00e8 vera?\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>L'unico metodo, che richiede di conoscere in anticipo il massimo numero di risorse che un processo dovr\u00e0 chiedere, \u00e8 quello per rilevare il deadlock\n\n>Il metodo pi\u00f9 permissivo nei confronti delle richieste di risorse \u00e8 quello che consiste nel prevenire il deadlock\n\n>L'unico metodo che non prevede mai la preemption delle risorse \u00e8 quello che evita il deadlock\n\n",
+        "ans": "1"
+    },
+    "89": {
+        "str": "89) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni \u00e8 falsa?\n\n>Lo scheduler ha, tra i suoi obiettivi, quello dell'equit\u00e0 tra i processi, a meno che non siano definite delle priorit\u00e0\n\n>Lo scheduler va scritto in modo che il suo overhead sia basso\n\n>Lo scheduler ha, tra i suoi obiettivi, quello di evitare il deadlock\n\n>Lo scheduler ha, tra i suoi obiettivi, quello di massimizzare il volume di lavoro dei processi nel tempo\n\n",
+        "ans": "3"
+    },
+    "90": {
+        "str": "90) Quale delle seguenti affermazioni sugli scheduler per architetture multiprocessore \u00e8 vera?\n\n>Con l'assegnamento statico, si d\u00e0 un processore a caso tra quelli liberi ai processi che mantengono un uso della RAM pressoch\u00e9 costante\n\n>Assegnando i processi del sistema operativo con l'assegnamento dinamico, si rischia di creare un bottleneck su un solo processore\n\n>Uno svantaggio dell'assegnamento statico \u00e8 il suo overhead maggiore rispetto a quello dinamico\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "ans": "4"
+    },
+    "91": {
+        "str": "91) Quale delle seguenti affermazioni sull'algoritmo del banchiere per evitare il deadlock visto a lezione \u00e8 falsa?\n\n>La matrice C - A pu\u00f2 contenere elementi negativi, ma le matrici C ed A contengono solo elementi non negativi\n\n>Richiede in input, per ogni processo p e per ogni risorsa r, il numero massimo di istanze di r che p chieder\u00e0 nel corso della sua esecuzione\n\n>All'inizio e alla fine di ogni invocazione dell'algoritmo, Vi = Ri - \u2211j = 1, ..., nAi, j\n\n>Se si procede da uno stato ad un altro, necessariamente \u00e8 stata fatta almeno una richiesta ad almeno una risorsa da parte di almeno un processo\n\n",
+        "ans": "1"
+    },
+    "92": {
+        "str": "92) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sul dispatcher \u00e8 falsa?\n\n>Il throughput \u00e8 definito come il numero di processi completati per unit\u00e0 di tempo\n\n>Il turnaround time \u00e8 definito, per un dato processo, come il tempo che intercorre tra la sua prima esecuzione sul processore e il suo completamento\n\n>Un dispatcher con buone prestazioni sul response time deve tipicamente sia minimizzare il valore medio di sistema del response time, sia massimizzare il numero di utenti con un basso valore per il response time\n\n>Il processor utilization \u00e8 definito come il rapporto tra il tempo in cui il processore viene usato ed il tempo totoale del sistema\n\n\n",
+        "ans": "2"
+    },
+    "93": {
+        "str": "93) Quale delle seguenti affermazioni sugli i-node di Unix \u00e8 vera?\n\n>Per ogni file-system su disco organizzato con i-node, tutti gli i-node di tutti i file su tale file-system sono memorizzati esclusivamente su disco\n\n>I puntatori a tripla indirezione di un i-node vengono usati solo se la dimensione del file lo richiede\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n>Ad ogni file effettivamente memorizzato su disco pu\u00f2 essere associato un solo numero di i-node\n\n",
+        "ans": "2"
+    },
+    "94": {
+        "str": "94) Quale delle seguenti affermazioni sul modello dei processi a 7 stati \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Gli stati Ready, New e Blocked del modello a 5 stati vengono sdoppiati, e ne viene creata una versione Suspend\n\n> Un processo \u00e8 Suspend quando scade il timeout del dispatcher\n\n> \u00c8 possibile la transizione Ready/Suspend ==> Blocked/Suspend\n\n",
+        "ans": "1"
+    },
+    "95": {
+        "str": "95) Quale delle seguenti affermazioni sui dischi magnetici a testina mobile \u00e8 vera?\n\n> Per selezionare un settore su una traccia di un disco magnetico a testina mobile, bisogna prima far ruotare il disco fino ad arrivare alla giusta traccia, e poi posizionare la testina sul giusto settore\n\n> Una traccia di un disco \u00e8 l'area compresa tra 2 raggi del disco stesso\n\n> Il tempo di accesso ad un disco magnetico a testina mobile tiene conto sia del tempo che occorre per posizionare la testina che del tempo che occorre per far ruotare il disco, ma non del tempo che occorre per effettuare effettivamente il trasferimento di dati\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n",
+        "ans": "3"
+    },
+    "96": {
+        "str": "96) Riguardo alle differenze tra sistemi batch e sistemi time sharing (degli anni 60/70), quale delle seguenti affermazioni \u00e8 falsa?\n\n> I sistemi time-sharing puntavano a minimizzare l'uso del processore\n\n> Nei sistemi time-sharing, le direttive al sistema operativo arrivavano dai comandi digitati su terminali\n\n> Nei sistemi batch, le direttive al sistema operativo arrivavano dai comandi del job control language, che erano non-interattivi\n\n> I sistemi batch puntavano a massimizzare l'uso del processore\n\n",
+        "ans": "1"
+    },
+    "97": {
+        "str": "97) Quale delle seguenti affermazioni sui requisiti per la gestione della memoria \u00e8 falsa?\n\n> Il requisito di condivisione prevede che 2 o pi\u00f9 processi possano condividere una zona di memoria concordata tra i processi stessi\n\n> Il requisito dell'organizzazione fisica prevede che sia il sistema operativo a gestire il caricamento dei processi da memoria secondaria a principale e viceversa\n\n> Il requisito di condivisione viene spesso usato per processi che sono istanze dello stesso programma sorgente\n\n> Il requisito di protezione prevede che un processo non possa mai accedere all'area di memoria di un altro processo\n\n",
+        "ans": "4"
+    },
+    "98": {
+        "str": "98) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling \u00e8 vera?\n\n> L'exponential averaging permette di stimare la dimensione dell'immagine di un processo, a partire dalle precedenti immagini di quello stesso processo\n\n> La funzione di decisione dello scheduler Highest Response Ratio Next considera tanto il tempo di esecuzione stimato quanto il tempo trascorso in attesa\n\n> L'exponential averaging \u00e8 una tecnica applicabile dal solo scheduler Short Process Next\n\n> La funzione di decisione dello scheduler Shortest Remaining Time considera tanto il tempo di esecuzione richiesto quanto il tempo trascorso in attesa\n\n",
+        "ans": "2"
+    },
+    "99": {
+        "str": "99) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n> Per avere un overhead accettabile, occorre demandare la traduzione degli indirizzi all'hardware, mentre al software resta da gestire prelievo, posizionamento e sostituzione delle pagine\n\n> Per avere un overhead accettabile, occorre demandare la traduzione degli indirizzi e la politica di sostituzione delle pagine all'hardware, mentre al software resta da gestire prelievo e posizionamento delle pagine\n\n> Per avere un overhead accettabile, occorre demandare all'hardware la traduzione degli indirizzi ed il prelievo, il posizionamento e la sostituzione delle pagine\n\n> Per avere un overhead accettabile, occorre demandare al software anche la traduzione degli indirizzi\n\n",
+        "ans": "4"
+    },
+    "100": {
+        "str": "100) Quale delle seguenti affermazioni \u00e8 vera sulla memoria virtuale con paginazione a segmentazione?\n\n> Sia la tabella dei segmenti che quella delle pagine di un processo contengono, in ciascuna entry, un bit per indicare se la pagina o il segmento sono stati modificati\n\n> Un indirizzo virtuale contiene anche un bit per indicare se la pagina corrispondente \u00e8 o no in memoria principale\n\n> La tabella delle pagine di un processo contiene una pagina speciale dove \u00e8 memorizzato il process control block del processo stesso\n\n> Ogni entry di una tabella delle pagine contiene un numero di pagina ed un offset\n\n",
+        "ans": "1"
+    },
+    "101": {
+        "str": "101) Si consideri il seguente modo di implementare la mutua esclusione:\n\n```\n\nint bolt = 0;\n\nvoid P(int i) {\n\n  int key = 1;\n\n  while(true) {\n\n        do (exchange(key, bolt) == 0) while(key != 0);\n\n        critical_section();\n\n        bolt = 0;\n\n  }\n\n}\n\n```\n\nQuale delle seguenti affermazioni \u00e8 vera?\n\n> La soluzione non implementa correttamente la mutua esclusione, ma pu\u00f2 essere corretta nel seguente modo: int bolt = 0; void P(int i) { int key; while(true) { do (exchange(key, bolt) == 0) while(key != 0); critical_section(); bolt = 0; key = 1; } }\n\n> La soluzione non implementa correttamente la mutua esclusione, in quanto key deve essere una variabile globale\n\n> La soluzione non implementa correttamente la mutua esclusione, ma pu\u00f2 essere corretta nel seguente modo: int bolt = 0; void P(int i) { int key; while(true) { key = 1; do (exchange(key, bolt) == 0) while(key != 0); critical_section(); bolt = 0; } }\n\n> La soluzione implementa correttamente la mutua esclusione\n\n",
+        "ans": "3"
+    },
+    "102": {
+        "str": "102) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 falsa?\n\n> Diminuire la dimensione delle pagine ha effetti positivi sul numero delle pagine che possono trovarsi in memoria principale\n\n> Aumentare la dimensione delle pagine ha effetti positivi sulla frammentazione interna\n\n> Diminuire la dimensione delle pagine ha effetti negativi sulla dimensione della tabella delle pagine\n\n> Aumentare la dimensione delle pagine ha effetti negativi sulla multiprogrammazio",
+        "ans": "2"
+    }
+}
