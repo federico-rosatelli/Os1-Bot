@@ -75,3 +75,6 @@ def main():
         getNew()
     else:
         exam()
+
+if __name__ == "__main__":
+    main()

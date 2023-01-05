@@ -96,7 +96,7 @@
         "ans": "1"
     },
     "25": {
-        "str": "25) Quale delle seguenti affermazioni \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Nell'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache, un blocco passa da un segmento ad un altro esclusivamente per scorrimento\n\n> L'algoritmo di LFU della page cache ha buone performance quando un settore viene acceduto molto spesso in poco tempo, per poi non essere pi\u00f9 usato\n\n> L'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache pu\u00f2 non avere buone performance quando un settore viene acceduto spesso, ma tra il primo accesso e quelli successivi ci sono N accessi ad altri settori, diversi tra loro, con N pari alla dimensione del segmento nuovo\n\n",
+        "str": "25) Quale delle seguenti affermazioni \u00e8 vera?\n\n> Nessuna delle altre opzioni \u00e8 corretta\n\n> Nell'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache, un blocco passa da un segmento ad un altro esclusivamente per scorrimento[a]\n\n> L'algoritmo di LFU della page cache ha buone performance quando un settore viene acceduto molto spesso in poco tempo, per poi non essere pi\u00f9 usato\n\n> L'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache pu\u00f2 non avere buone performance quando un settore viene acceduto spesso, ma tra il primo accesso e quelli successivi ci sono N accessi ad altri settori, diversi tra loro, con N pari alla dimensione del segmento nuovo\n\n",
         "ans": "2"
     },
     "26": {
@@ -180,7 +180,7 @@
         "ans": "3"
     },
     "46": {
-        "str": "46) Quale delle seguenti affermazioni sui meccanismi per la gestione della concorrenza \u00e8 vera? \n\n> Senza usare n\u00e9 semafori, n\u00e9 scambio messaggi, n\u00e9 istruzioni macchina atomiche, \u00e8 possibile scrivere processi che non soffrano di starvation per garantire la mutua esclusione tra 2 processi\n\n> Disabilitando gli interrupt, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n> Usando i semafori di qualsiasi tipo, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n> Usando le istruzioni macchina exchange e compare_and_swap, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n",
+        "str": "46) Quale delle seguenti affermazioni sui meccanismi per la gestione della concorrenza \u00e8 vera? \n\n> Senza usare n\u00e9 semafori, n\u00e9 scambio messaggi, n\u00e9 istruzioni macchina atomiche, \u00e8 possibile scrivere processi che non soffrano di starvation per garantire la mutua esclusione tra 2 processi[b]\n\n> Disabilitando gli interrupt, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n> Usando i semafori di qualsiasi tipo, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n> Usando le istruzioni macchina exchange e compare_and_swap, \u00e8 possibile scrivere processi che non soffrano di starvation\n\n",
         "ans": "1"
     },
     "47": {
@@ -204,11 +204,11 @@
         "ans": "1"
     },
     "52": {
-        "str": "52) Quale delle seguenti affermazioni, riguardanti il joint progress diagram di 2 processi, \u00e8 vera?\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi sperimenta un page fault\n\n> Pu\u00f2 essere usato per visualizzare le possibilit\u00e0 di deadlock, ma solo se i processi richiedono al massimo 2 risorse\n\n> Nessuna delle altre opzioni \u00e8 vera\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi manda un segnale all'altro\n\n\n",
+        "str": "52) Quale delle seguenti affermazioni, riguardanti il joint progress diagram di 2 processi, \u00e8 vera?\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi sperimenta un page fault\n\n> Pu\u00f2 essere usato per visualizzare le possibilit\u00e0 di deadlock, ma solo se i processi richiedono al massimo 2 risorse\n\n> Nessuna delle altre opzioni \u00e8 vera[c]\n\n> Pu\u00f2 essere usato per determinare quando uno dei due processi manda un segnale all'altro\n\n\n",
         "ans": "3"
     },
     "53": {
-        "str": "53) Quale delle seguenti affermazioni sui (vecchi) metodi per il partizionamento della memoria \u00e8 vera?\n\n> Con il partizionamento fisso, le partizioni devono avere tutte la stessa dimensione\n\n> Con il buddy system, ogni indirizzo di memoria pu\u00f2 ricadere in 2 porzioni\n\n> Con il partizionamento fisso, ci possono essere al massimo N processi attivi (ovvero, accettati per l'esecuzione), dove N \u00e8 il numero di partizioni\n\n> Con il partizionamento dinamico, si manifesta il problema della frammentazione esterna\n\n",
+        "str": "53) Quale delle seguenti affermazioni sui (vecchi) metodi per il partizionamento della memoria \u00e8 vera?\n\n> Con il partizionamento fisso, le partizioni devono avere tutte la stessa dimensione\n\n> Con il buddy system, ogni indirizzo di memoria pu\u00f2 ricadere in 2 porzioni\n\n> Con il partizionamento fisso, ci possono essere al massimo N processi attivi (ovvero, accettati per l'esecuzione), dove N \u00e8 il numero di partizioni[d]\n\n> Con il partizionamento dinamico, si manifesta il problema della frammentazione esterna\n\n",
         "ans": "4"
     },
     "54": {
@@ -232,7 +232,7 @@
         "ans": "2"
     },
     "59": {
-        "str": "59) Quale dei seguenti requisiti deve soddisfare un meccanismo che offra la mutua esclusione?\n\n>Non deve essere fatta alcuna assunzione sulla velocit\u00e0 di esecuzione dei processi coinvolti\n\n>Se un processo non fa richiesta di entrare nella sezione critica, deve comunque sincronizzarsi all'esecuzione degli altri processi\n\n>Se un processo \u00e8 nella sezione critica, occorre che rilasci subito la sezione critica stessa\n\n>Se un processo fa richiesta di entrare nella sezione critica, deve poter entrare subito nella sezione critica stessa\n\n",
+        "str": "59) Quale dei seguenti requisiti deve soddisfare un meccanismo che offra la mutua esclusione?\n\n>Non deve essere fatta alcuna assunzione sulla velocit\u00e0 di esecuzione dei processi coinvolti[e]\n\n>Se un processo non fa richiesta di entrare nella sezione critica, deve comunque sincronizzarsi all'esecuzione degli altri processi\n\n>Se un processo \u00e8 nella sezione critica, occorre che rilasci subito la sezione critica stessa\n\n>Se un processo fa richiesta di entrare nella sezione critica, deve poter entrare subito nella sezione critica stessa\n\n",
         "ans": "1"
     },
     "60": {
@@ -264,7 +264,7 @@
         "ans": "1"
     },
     "67": {
-        "str": "67) Quale delle seguenti affermazioni sulla paginazione della memoria \u00e8 vera?\n\n>La differenza tra paginazione semplice e paginazione con memoria virtuale \u00e8 che nella seconda viene richiesto che tutte le pagine di un processo siano in memoria principale, affinch\u00e9 il processo stesso possa essere eseguito\n\n>Con la paginazione con memoria virtuale, una sola pagina di ogni processo ready o in esecuzione \u00e8 inizialmente caricata in memoria principale\n\n>La differenza tra paginazione semplice e paginazione con memoria virtuale \u00e8 che nella prima viene richiesto che tutte le pagine di un processo siano in memoria principale, affinch\u00e9 il processo stesso possa essere eseguito\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "str": "67) Quale delle seguenti affermazioni sulla paginazione della memoria \u00e8 vera?\n\n>La differenza tra paginazione semplice e paginazione con memoria virtuale \u00e8 che nella seconda viene richiesto che tutte le pagine di un processo siano in memoria principale, affinch\u00e9 il processo stesso possa essere eseguito\n\n>Con la paginazione con memoria virtuale, una sola pagina di ogni processo ready o in esecuzione \u00e8 inizialmente caricata in memoria principale\n\n>La differenza tra paginazione semplice e paginazione con memoria virtuale \u00e8 che nella prima viene richiesto che tutte le pagine di un processo siano in memoria principale, affinch\u00e9 il processo stesso possa essere eseguito[f][g][h][i][j][k][l][m][n][o]\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
         "ans": "3"
     },
     "68": {
@@ -284,7 +284,7 @@
         "ans": "3"
     },
     "72": {
-        "str": "72) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n>Per ogni processo, il resident set contiene lo stesso numero di pagine\n\n>Un tipico algoritmo per il replacement scope \u00e8 quello dell'orologio\n\n>La gestione del resident set tramite politica dinamica mira ad ampliare il numero di pagine di un processo durante l'esecuzione del processo stesso\n\n\n",
+        "str": "72) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 vera?\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n>Per ogni processo, il resident set contiene lo stesso numero di pagine\n\n>Un tipico algoritmo per il replacement scope \u00e8 quello dell'orologio[p][q]\n\n>La gestione del resident set tramite politica dinamica mira ad ampliare il numero di pagine di un processo durante l'esecuzione del processo stesso\n\n\n",
         "ans": "1"
     },
     "73": {
@@ -304,7 +304,7 @@
         "ans": "4"
     },
     "77": {
-        "str": "77)  Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 falsa?\n\n>Il translation lookaside buffer, su alcuni processori, contiene un campo per il PID dei processi\n\n>Il translation lookaside buffer funziona correttamente solo se tutti i frame validi contenuti al suo interno fanno riferimento a pagine effettivamente in RAM, e non swappate su disco\n\n>Il mapping associativo permette al translation lookaside buffer di trovare una data pagina semplicemente sommando il numero della pagina con l'indirizzo di partenza del translation lookaside buffer stesso\n\n>Quando un indirizzo viene trovato nel translation lookaside buffer, non \u00e8 necessario consultare la normale tabella delle pagine\n\n",
+        "str": "77)  Quale delle seguenti affermazioni sulla memoria virtuale con paginazione \u00e8 falsa?\n\n>Il translation lookaside buffer, su alcuni processori, contiene un campo per il PID dei processi[r]\n\n>Il translation lookaside buffer funziona correttamente solo se tutti i frame validi contenuti al suo interno fanno riferimento a pagine effettivamente in RAM, e non swappate su disco[s]\n\n>Il mapping associativo permette al translation lookaside buffer di trovare una data pagina semplicemente sommando il numero della pagina con l'indirizzo di partenza del translation lookaside buffer stesso\n\n>Quando un indirizzo viene trovato nel translation lookaside buffer, non \u00e8 necessario consultare la normale tabella delle pagine[t]\n\n",
         "ans": "2"
     },
     "78": {
@@ -316,7 +316,7 @@
         "ans": "2"
     },
     "80": {
-        "str": "80) Si supponga che ci siano N processi attivi, giostrati da uno scheduler round-robin su un sistema monoprocessore. Quale delle seguenti affermazioni \u00e8 vera?\n\n>Dal punto di vista del processore, ogni processo esegue sempre le proprie istruzioni senza interruzioni\n\n>Per realizzare correttamente un process switch, il SO avr\u00e0 necessit\u00e0 di usare le informazioni sul contesto contenute nel process control block\n\n>Dal punto di vista di ogni processo, l'esecuzione avviene in interleaving con gli altri processi\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
+        "str": "80) Si supponga che ci siano N processi attivi, giostrati da uno scheduler round-robin su un sistema monoprocessore. Quale delle seguenti affermazioni \u00e8 vera?\n\n>Dal punto di vista del processore, ogni processo esegue sempre le proprie istruzioni senza interruzioni\n\n>Per realizzare correttamente un process switch, il SO avr\u00e0 necessit\u00e0 di usare le informazioni sul contesto contenute nel process control block\n\n>Dal punto di vista di ogni processo[u][v], l'esecuzione avviene in interleaving con gli altri processi\n\n>Nessuna delle altre opzioni \u00e8 vera\n\n",
         "ans": "2"
     },
     "81": {
@@ -340,7 +340,7 @@
         "ans": "3"
     },
     "86": {
-        "str": "86) Un computer esegue 20 istruzioni ogni microsecondo. Ricordando che 1 millisecondo = 1000 microsecondi = 1000000 nanosecondi, per eseguire una singola istruzione impiega:\n\n>0.05 microsecondi\n\n>0.05 millisecondi\n\n>0.05 nanosecondi\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n",
+        "str": "86) Un computer esegue 20 istruzioni ogni microsecondo. Ricordando che 1 millisecondo = 1000 microsecondi = 1000000 nanosecondi, per eseguire una singola istruzione impiega:\n\n>0.05 microsecondi[x][y]\n\n>0.05 millisecondi\n\n>0.05 nanosecondi\n\n>Nessuna delle altre opzioni \u00e8 corretta\n\n",
         "ans": "1"
     },
     "87": {
@@ -388,7 +388,7 @@
         "ans": "4"
     },
     "98": {
-        "str": "98) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling \u00e8 vera?\n\n> L'exponential averaging permette di stimare la dimensione dell'immagine di un processo, a partire dalle precedenti immagini di quello stesso processo\n\n> La funzione di decisione dello scheduler Highest Response Ratio Next considera tanto il tempo di esecuzione stimato quanto il tempo trascorso in attesa\n\n> L'exponential averaging \u00e8 una tecnica applicabile dal solo scheduler Short Process Next\n\n> La funzione di decisione dello scheduler Shortest Remaining Time considera tanto il tempo di esecuzione richiesto quanto il tempo trascorso in attesa\n\n",
+        "str": "98) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling \u00e8 vera?\n\n> L'exponential averaging permette di stimare la dimensione dell'immagine di un processo, a partire dalle precedenti immagini di quello stesso processo[z]\n\n> La funzione di decisione dello scheduler Highest Response Ratio Next considera tanto il tempo di esecuzione stimato quanto il tempo trascorso in attesa[aa][ab][ac][ad]\n\n> L'exponential averaging \u00e8 una tecnica applicabile dal solo scheduler Short Process Next\n\n> La funzione di decisione dello scheduler Shortest Remaining Time considera tanto il tempo di esecuzione richiesto quanto il tempo trascorso in attesa\n\n",
         "ans": "2"
     },
     "99": {
